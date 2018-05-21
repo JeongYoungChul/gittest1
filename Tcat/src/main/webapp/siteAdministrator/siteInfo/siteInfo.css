@@ -1,0 +1,113 @@
+@charset "UTF-8";
+body{
+	width: 1024px;
+	height: auto;
+	margin: 0 auto;
+}
+#subTitle{
+	margin-left: 20px;
+}
+#center_div{
+	height: auto;
+	overflow: hidden
+}
+#left_menu_div{
+	float: left;
+}
+#left_menu_table{
+	text-align: center;
+	margin: 100px 20px;
+	width: 180px;
+}
+#left_menu_table_top{
+	background-color: #EAEAEA;
+}
+#left_menu_p{
+	font-weight: bold;
+}
+.left_menu_a{
+	color: black;
+	text-decoration: none;
+}
+.left_menu_a:hover{
+	font-size: 120%;
+}
+.left_menu_a:visited{
+	color: black;
+}
+.left_menu_a:active{
+	font-size: 90%;
+}
+#center_info_div{
+	width: 500px;
+    float: left;
+    margin: 100px 0 0 100px;
+}
+#center_info_table{
+	width: 600px;
+	height: 420px;
+	text-align: center;
+}
+.center_info_td{
+	background-color: #EAEAEA;
+	font-weight: bold;
+}
+.center_info_input{
+	width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA;
+}
+.center_info_textarea{
+	border-radius: 5px;
+    border: 1px solid #EAEAEA;
+}
+#center_info_address1{
+	width: 230px;
+	height: 30px;
+	border-radius: 5px;
+    border: 1px solid #EAEAEA;
+}
+#center_info_address2{
+	width: 200px;
+	height: 30px;
+	border-radius: 5px;
+    border: 1px solid #EAEAEA;
+}
+#center_info_addressNum{
+	width: 100px;
+	height: 25px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA;
+}
+#center_info_address_find{
+	background-color: white;
+	border: 2px solid #6799FF;
+	border-radius: 2px;
+	margin-left: 15px;
+}
+#center_info_inputBtn{
+	background-color: white;
+	border: 2px solid #6799FF;
+	border-radius: 2px;
+	font-size: 20px;
+	margin: 50px 0 0 110px;
+    padding: 15px;
+}
+#center_info_resetBtn{
+	background-color: white;
+	border: 2px solid #86E57F;
+	border-radius: 2px;
+	font-size: 20px;
+	margin: 50px 0 0 50px;
+    padding: 15px;
+}
+#center_info_cancelBtn{
+	background-color: white;
+	border: 2px solid #F15F5F;
+	border-radius: 2px;
+	font-size: 20px;
+	margin: 50px 0 0 50px;
+    padding: 15px;
+}
